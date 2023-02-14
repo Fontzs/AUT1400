@@ -11,7 +11,7 @@ Amirkabir University of Technology 1400-2: Advanced Programming Course
 
 ## Set Up
 
-**This is for Linux or WSL **
+**This is for Linux or WSL**
 
 1. Git clone the URL
 2. Install **cmake**
