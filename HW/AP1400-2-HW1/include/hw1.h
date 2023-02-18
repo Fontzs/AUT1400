@@ -2,6 +2,9 @@
 #ifndef AP_HW1_H
 #define AP_HW1_H
 
+#include <vector>
+using std::size_t;
+
 namespace algebra {
 
 using Matrix = std::vector<std::vector<double>>;
@@ -27,10 +30,6 @@ Matrix transpose(const Matrix& matrix);
 Matrix minor(const Matrix& matrix, size_t n, size_t m);
 
 double determinant(const Matrix& matrix);
-
-Matrix inverse(const Matrix& matrix);
-
-Matrix concatenate(const Matrix& matrix1, const Matrix& matrix2, int axis = 0);
 
 Matrix inverse(const Matrix& matrix);
 

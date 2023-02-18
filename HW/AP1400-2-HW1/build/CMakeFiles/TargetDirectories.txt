@@ -1,0 +1,3 @@
+/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW1/build/CMakeFiles/main.dir
+/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW1/build/CMakeFiles/edit_cache.dir
+/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW1/build/CMakeFiles/rebuild_cache.dir
