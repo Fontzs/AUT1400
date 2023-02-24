@@ -1,5 +1,8 @@
 
+#include <error.h>
+
 #include "client.h"
+#include "crypto.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include "server.h"
