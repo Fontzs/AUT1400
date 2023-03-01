@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/build",
+  "command": "/usr/bin/g++  -I/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/include -g -std=gnu++20 -o CMakeFiles/main.dir/src/main.cpp.o -c /mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/src/main.cpp",
+  "file": "/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/src/main.cpp"
+},
+{
+  "directory": "/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/build",
+  "command": "/usr/bin/g++  -I/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/include -g -std=gnu++20 -o CMakeFiles/main.dir/src/bst.cpp.o -c /mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/src/bst.cpp",
+  "file": "/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/src/bst.cpp"
+},
+{
+  "directory": "/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/build",
+  "command": "/usr/bin/g++  -I/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/include -g -std=gnu++20 -o CMakeFiles/main.dir/src/unit_test.cpp.o -c /mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/src/unit_test.cpp",
+  "file": "/mnt/e/CS_EE_course/AUT1400/HW/AP1400-2-HW3/src/unit_test.cpp"
+}
+]

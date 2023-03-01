@@ -7,6 +7,7 @@
 #include <ostream>
 #include <queue>
 using std::cout;
+using std::endl;
 using std::ostream;
 using std::queue;
 class BST {
@@ -26,10 +27,11 @@ public:
     BST(const BST& b);  // copy constructor
     BST(BST&& b);       // move constructor
     ~BST();             // destructor
+    BST(std::initializer_list<int> list);
 
-    Node*& get_root();
+    Node* get_root();
     void bfs(std::function<void(Node*& node)> func);
-    size_t length();
+    size_t length() const;
     bool add_node(int value);
     Node** find_node(int value);
     Node** find_parrent(int value);
@@ -39,6 +41,9 @@ public:
     friend ostream& operator<<(ostream& os, BST b);
     BST& operator++();
     BST operator++(int);
+
+    BST& operator=(BST& b);
+    BST& operator=(BST&& b);
 
 private:
     Node* root;
