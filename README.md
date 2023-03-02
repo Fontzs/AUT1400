@@ -1,6 +1,8 @@
 ## Overview
 Amirkabir University of Technology 1400-2: Advanced Programming Course
 
+[Here](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/AUT1400/) is the detailed description.
+
 - [x] HW1: Implement a Matrix class and associated functions
 - [x] HW2: Implement a program that simulates the execution process of a cryptocurrency client/server
 - [x] HW3: Implements a Binary Search Tree (BST)
