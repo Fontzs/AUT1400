@@ -1,14 +1,13 @@
-#include "gtest/gtest.h"
-#include "gmock/gmock.h"
-#include "ingredient.h"
-#include "sub_ingredients.h"
-#include "espresso_based.h"
 #include "cappuccino.h"
+#include "espresso_based.h"
+#include "gmock/gmock.h"
+#include "gtest/gtest.h"
+#include "ingredient.h"
 #include "mocha.h"
+#include "sub_ingredients.h"
 
-/*
 TEST(HW5Test, TEST1) {
-    Cinnamon    cinnamon{2};  
+    Cinnamon cinnamon{2};
     EXPECT_EQ(cinnamon.get_name(), "Cinnamon");
     EXPECT_EQ(cinnamon.get_price_unit(), 5);
     EXPECT_EQ(cinnamon.get_units(), 2);
@@ -16,21 +15,21 @@ TEST(HW5Test, TEST1) {
 }
 
 TEST(HW5Test, TEST2) {
-    Cinnamon    cinnamon{1};  
-    Chocolate   chocolate{1};
-    Sugar       sugar{2};    
-    Cookie      cookie{1};  
-    Espresso    espresso{2}; 
-    Milk        milk{2} ;    
-    MilkFoam    milkFoam{1}; 
-    Water       water{2};    
+    Cinnamon cinnamon{1};
+    Chocolate chocolate{1};
+    Sugar sugar{2};
+    Cookie cookie{1};
+    Espresso espresso{2};
+    Milk milk{2};
+    MilkFoam milkFoam{1};
+    Water water{2};
 }
 
 TEST(HW5Test, TEST3) {
-    Cinnamon    cinnamon{1};  
-    Sugar       sugar{2};    
-    Cookie      cookie{1};  
-    Water       water{2};
+    Cinnamon cinnamon{1};
+    Sugar sugar{2};
+    Cookie cookie{1};
+    Water water{2};
 
     Ingredient* ingredient;
     ingredient = &cinnamon;
@@ -49,8 +48,9 @@ TEST(HW5Test, TEST4) {
     auto ingredients = cappuccino.get_ingredients();
 
     EXPECT_EQ(ingredients.size(), 3);
-    for(const auto& i : ingredients)
-        EXPECT_TRUE(i->get_name() == "Espresso" || i->get_name() == "Milk" || i->get_name() == "MilkFoam");
+    for (const auto& i : ingredients)
+        EXPECT_TRUE(i->get_name() == "Espresso" || i->get_name() == "Milk" ||
+                    i->get_name() == "MilkFoam");
 }
 
 TEST(HW5Test, TEST5) {
@@ -99,8 +99,9 @@ TEST(HW5Test, TEST10) {
     auto ingredients = mocha.get_ingredients();
 
     EXPECT_EQ(ingredients.size(), 4);
-    for(const auto& i : ingredients)
-        EXPECT_TRUE(i->get_name() == "Espresso" || i->get_name() == "Milk" || i->get_name() == "MilkFoam" || i->get_name() == "Chocolate");
+    for (const auto& i : ingredients)
+        EXPECT_TRUE(i->get_name() == "Espresso" || i->get_name() == "Milk" ||
+                    i->get_name() == "MilkFoam" || i->get_name() == "Chocolate");
     EXPECT_DOUBLE_EQ(mocha.price(), 60);
 
     EspressoBased* esp{new Mocha{}};
@@ -121,8 +122,3 @@ TEST(HW5Test, TEST12) {
     Mocha mocha{};
     mocha.brew();
 }
-*/
-
-
-
-
